@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9918E8642984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */; };
+		9918E8662984723600D4F80A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8652984723600D4F80A /* ContentView.swift */; };
+		9918E8682984723600D4F80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9918E8672984723600D4F80A /* Assets.xcassets */; };
+		9918E86B2984723600D4F80A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9918E86A2984723600D4F80A /* Preview Assets.xcassets */; };
+		9918E86D2984723600D4F80A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E86C2984723600D4F80A /* Persistence.swift */; };
+		9918E8702984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9918E86E2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld */; };
+		9918E87A2984723600D4F80A /* MarkPhoto_WorkOrHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8792984723600D4F80A /* MarkPhoto_WorkOrHomeTests.swift */; };
+		9918E8842984723600D4F80A /* MarkPhoto_WorkOrHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8832984723600D4F80A /* MarkPhoto_WorkOrHomeUITests.swift */; };
+		9918E8862984723600D4F80A /* MarkPhoto_WorkOrHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8852984723600D4F80A /* MarkPhoto_WorkOrHomeUITestsLaunchTests.swift */; };
+		9918E89A298473B700D4F80A /* AnalysisImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E895298473B700D4F80A /* AnalysisImage.swift */; };
+		9918E89B298473B700D4F80A /* ClassifierImageWorkOrHome3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9918E896298473B700D4F80A /* ClassifierImageWorkOrHome3.mlmodel */; };
+		9918E89C298473B700D4F80A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E897298473B700D4F80A /* Extensions.swift */; };
+		9918E89D298473B700D4F80A /* ImagePredictorClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E898298473B700D4F80A /* ImagePredictorClassifier.swift */; };
+		9918E89E298473B700D4F80A /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E899298473B700D4F80A /* Struct.swift */; };
+		9918E8A2298473D700D4F80A /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E89F298473D700D4F80A /* MainContentView.swift */; };
+		9918E8A3298473D700D4F80A /* PhotosPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8A0298473D700D4F80A /* PhotosPickerModel.swift */; };
+		9918E8A4298473D700D4F80A /* ItemGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8A1298473D700D4F80A /* ItemGrid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9918E8762984723600D4F80A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9918E8582984723600D4F80A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9918E85F2984723600D4F80A;
+			remoteInfo = "MarkPhoto-WorkOrHome";
+		};
+		9918E8802984723600D4F80A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9918E8582984723600D4F80A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9918E85F2984723600D4F80A;
+			remoteInfo = "MarkPhoto-WorkOrHome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9918E8602984723600D4F80A /* MarkPhoto-WorkOrHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarkPhoto-WorkOrHome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPhoto_WorkOrHomeApp.swift; sourceTree = "<group>"; };
+		9918E8652984723600D4F80A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9918E8672984723600D4F80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9918E86A2984723600D4F80A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9918E86C2984723600D4F80A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9918E86F2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarkPhoto_WorkOrHome.xcdatamodel; sourceTree = "<group>"; };
+		9918E8752984723600D4F80A /* MarkPhoto-WorkOrHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MarkPhoto-WorkOrHomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918E8792984723600D4F80A /* MarkPhoto_WorkOrHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPhoto_WorkOrHomeTests.swift; sourceTree = "<group>"; };
+		9918E87F2984723600D4F80A /* MarkPhoto-WorkOrHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MarkPhoto-WorkOrHomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918E8832984723600D4F80A /* MarkPhoto_WorkOrHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPhoto_WorkOrHomeUITests.swift; sourceTree = "<group>"; };
+		9918E8852984723600D4F80A /* MarkPhoto_WorkOrHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPhoto_WorkOrHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9918E895298473B700D4F80A /* AnalysisImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisImage.swift; sourceTree = "<group>"; };
+		9918E896298473B700D4F80A /* ClassifierImageWorkOrHome3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClassifierImageWorkOrHome3.mlmodel; sourceTree = "<group>"; };
+		9918E897298473B700D4F80A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9918E898298473B700D4F80A /* ImagePredictorClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictorClassifier.swift; sourceTree = "<group>"; };
+		9918E899298473B700D4F80A /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		9918E89F298473D700D4F80A /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		9918E8A0298473D700D4F80A /* PhotosPickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPickerModel.swift; sourceTree = "<group>"; };
+		9918E8A1298473D700D4F80A /* ItemGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGrid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9918E85D2984723600D4F80A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9918E8722984723600D4F80A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9918E87C2984723600D4F80A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9918E8572984723600D4F80A = {
+			isa = PBXGroup;
+			children = (
+				9918E8622984723600D4F80A /* MarkPhoto-WorkOrHome */,
+				9918E8782984723600D4F80A /* MarkPhoto-WorkOrHomeTests */,
+				9918E8822984723600D4F80A /* MarkPhoto-WorkOrHomeUITests */,
+				9918E8612984723600D4F80A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9918E8612984723600D4F80A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8602984723600D4F80A /* MarkPhoto-WorkOrHome.app */,
+				9918E8752984723600D4F80A /* MarkPhoto-WorkOrHomeTests.xctest */,
+				9918E87F2984723600D4F80A /* MarkPhoto-WorkOrHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9918E8622984723600D4F80A /* MarkPhoto-WorkOrHome */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8942984728100D4F80A /* ViewModel */,
+				9918E8932984727400D4F80A /* View */,
+				9918E8922984726400D4F80A /* Model */,
+				9918E8672984723600D4F80A /* Assets.xcassets */,
+				9918E8A52984754500D4F80A /* bak */,
+				9918E86C2984723600D4F80A /* Persistence.swift */,
+				9918E86E2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld */,
+				9918E8692984723600D4F80A /* Preview Content */,
+			);
+			path = "MarkPhoto-WorkOrHome";
+			sourceTree = "<group>";
+		};
+		9918E8692984723600D4F80A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9918E86A2984723600D4F80A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9918E8782984723600D4F80A /* MarkPhoto-WorkOrHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8792984723600D4F80A /* MarkPhoto_WorkOrHomeTests.swift */,
+			);
+			path = "MarkPhoto-WorkOrHomeTests";
+			sourceTree = "<group>";
+		};
+		9918E8822984723600D4F80A /* MarkPhoto-WorkOrHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8832984723600D4F80A /* MarkPhoto_WorkOrHomeUITests.swift */,
+				9918E8852984723600D4F80A /* MarkPhoto_WorkOrHomeUITestsLaunchTests.swift */,
+			);
+			path = "MarkPhoto-WorkOrHomeUITests";
+			sourceTree = "<group>";
+		};
+		9918E8922984726400D4F80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8A0298473D700D4F80A /* PhotosPickerModel.swift */,
+				9918E895298473B700D4F80A /* AnalysisImage.swift */,
+				9918E896298473B700D4F80A /* ClassifierImageWorkOrHome3.mlmodel */,
+				9918E897298473B700D4F80A /* Extensions.swift */,
+				9918E898298473B700D4F80A /* ImagePredictorClassifier.swift */,
+				9918E899298473B700D4F80A /* Struct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9918E8932984727400D4F80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8A1298473D700D4F80A /* ItemGrid.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9918E8942984728100D4F80A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */,
+				9918E89F298473D700D4F80A /* MainContentView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9918E8A52984754500D4F80A /* bak */ = {
+			isa = PBXGroup;
+			children = (
+				9918E8652984723600D4F80A /* ContentView.swift */,
+			);
+			path = bak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9918E85F2984723600D4F80A /* MarkPhoto-WorkOrHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9918E8892984723600D4F80A /* Build configuration list for PBXNativeTarget "MarkPhoto-WorkOrHome" */;
+			buildPhases = (
+				9918E85C2984723600D4F80A /* Sources */,
+				9918E85D2984723600D4F80A /* Frameworks */,
+				9918E85E2984723600D4F80A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MarkPhoto-WorkOrHome";
+			productName = "MarkPhoto-WorkOrHome";
+			productReference = 9918E8602984723600D4F80A /* MarkPhoto-WorkOrHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9918E8742984723600D4F80A /* MarkPhoto-WorkOrHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9918E88C2984723600D4F80A /* Build configuration list for PBXNativeTarget "MarkPhoto-WorkOrHomeTests" */;
+			buildPhases = (
+				9918E8712984723600D4F80A /* Sources */,
+				9918E8722984723600D4F80A /* Frameworks */,
+				9918E8732984723600D4F80A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9918E8772984723600D4F80A /* PBXTargetDependency */,
+			);
+			name = "MarkPhoto-WorkOrHomeTests";
+			productName = "MarkPhoto-WorkOrHomeTests";
+			productReference = 9918E8752984723600D4F80A /* MarkPhoto-WorkOrHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9918E87E2984723600D4F80A /* MarkPhoto-WorkOrHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9918E88F2984723600D4F80A /* Build configuration list for PBXNativeTarget "MarkPhoto-WorkOrHomeUITests" */;
+			buildPhases = (
+				9918E87B2984723600D4F80A /* Sources */,
+				9918E87C2984723600D4F80A /* Frameworks */,
+				9918E87D2984723600D4F80A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9918E8812984723600D4F80A /* PBXTargetDependency */,
+			);
+			name = "MarkPhoto-WorkOrHomeUITests";
+			productName = "MarkPhoto-WorkOrHomeUITests";
+			productReference = 9918E87F2984723600D4F80A /* MarkPhoto-WorkOrHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9918E8582984723600D4F80A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9918E85F2984723600D4F80A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9918E8742984723600D4F80A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9918E85F2984723600D4F80A;
+					};
+					9918E87E2984723600D4F80A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9918E85F2984723600D4F80A;
+					};
+				};
+			};
+			buildConfigurationList = 9918E85B2984723600D4F80A /* Build configuration list for PBXProject "MarkPhoto-WorkOrHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9918E8572984723600D4F80A;
+			productRefGroup = 9918E8612984723600D4F80A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9918E85F2984723600D4F80A /* MarkPhoto-WorkOrHome */,
+				9918E8742984723600D4F80A /* MarkPhoto-WorkOrHomeTests */,
+				9918E87E2984723600D4F80A /* MarkPhoto-WorkOrHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9918E85E2984723600D4F80A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918E86B2984723600D4F80A /* Preview Assets.xcassets in Resources */,
+				9918E8682984723600D4F80A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9918E8732984723600D4F80A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9918E87D2984723600D4F80A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9918E85C2984723600D4F80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918E89A298473B700D4F80A /* AnalysisImage.swift in Sources */,
+				9918E86D2984723600D4F80A /* Persistence.swift in Sources */,
+				9918E8A4298473D700D4F80A /* ItemGrid.swift in Sources */,
+				9918E89B298473B700D4F80A /* ClassifierImageWorkOrHome3.mlmodel in Sources */,
+				9918E89E298473B700D4F80A /* Struct.swift in Sources */,
+				9918E8A3298473D700D4F80A /* PhotosPickerModel.swift in Sources */,
+				9918E8662984723600D4F80A /* ContentView.swift in Sources */,
+				9918E8702984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld in Sources */,
+				9918E89D298473B700D4F80A /* ImagePredictorClassifier.swift in Sources */,
+				9918E8642984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift in Sources */,
+				9918E89C298473B700D4F80A /* Extensions.swift in Sources */,
+				9918E8A2298473D700D4F80A /* MainContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9918E8712984723600D4F80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918E87A2984723600D4F80A /* MarkPhoto_WorkOrHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9918E87B2984723600D4F80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918E8842984723600D4F80A /* MarkPhoto_WorkOrHomeUITests.swift in Sources */,
+				9918E8862984723600D4F80A /* MarkPhoto_WorkOrHomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9918E8772984723600D4F80A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9918E85F2984723600D4F80A /* MarkPhoto-WorkOrHome */;
+			targetProxy = 9918E8762984723600D4F80A /* PBXContainerItemProxy */;
+		};
+		9918E8812984723600D4F80A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9918E85F2984723600D4F80A /* MarkPhoto-WorkOrHome */;
+			targetProxy = 9918E8802984723600D4F80A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9918E8872984723600D4F80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9918E8882984723600D4F80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9918E88A2984723600D4F80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkPhoto-WorkOrHome/Preview Content\"";
+				DEVELOPMENT_TEAM = RC9H8Z8TW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Evgenii-Zakharov.MarkPhoto-WorkOrHome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9918E88B2984723600D4F80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkPhoto-WorkOrHome/Preview Content\"";
+				DEVELOPMENT_TEAM = RC9H8Z8TW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Evgenii-Zakharov.MarkPhoto-WorkOrHome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9918E88D2984723600D4F80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC9H8Z8TW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Evgenii-Zakharov.MarkPhoto-WorkOrHomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkPhoto-WorkOrHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarkPhoto-WorkOrHome";
+			};
+			name = Debug;
+		};
+		9918E88E2984723600D4F80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC9H8Z8TW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Evgenii-Zakharov.MarkPhoto-WorkOrHomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkPhoto-WorkOrHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarkPhoto-WorkOrHome";
+			};
+			name = Release;
+		};
+		9918E8902984723600D4F80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC9H8Z8TW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Evgenii-Zakharov.MarkPhoto-WorkOrHomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MarkPhoto-WorkOrHome";
+			};
+			name = Debug;
+		};
+		9918E8912984723600D4F80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RC9H8Z8TW3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Evgenii-Zakharov.MarkPhoto-WorkOrHomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MarkPhoto-WorkOrHome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9918E85B2984723600D4F80A /* Build configuration list for PBXProject "MarkPhoto-WorkOrHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9918E8872984723600D4F80A /* Debug */,
+				9918E8882984723600D4F80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9918E8892984723600D4F80A /* Build configuration list for PBXNativeTarget "MarkPhoto-WorkOrHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9918E88A2984723600D4F80A /* Debug */,
+				9918E88B2984723600D4F80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9918E88C2984723600D4F80A /* Build configuration list for PBXNativeTarget "MarkPhoto-WorkOrHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9918E88D2984723600D4F80A /* Debug */,
+				9918E88E2984723600D4F80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9918E88F2984723600D4F80A /* Build configuration list for PBXNativeTarget "MarkPhoto-WorkOrHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9918E8902984723600D4F80A /* Debug */,
+				9918E8912984723600D4F80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9918E86E2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9918E86F2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodel */,
+			);
+			currentVersion = 9918E86F2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodel */;
+			path = MarkPhoto_WorkOrHome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9918E8582984723600D4F80A /* Project object */;
+}
