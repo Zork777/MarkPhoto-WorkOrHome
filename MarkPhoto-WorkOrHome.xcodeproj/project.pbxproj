@@ -24,6 +24,7 @@
 		9918E8A2298473D700D4F80A /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E89F298473D700D4F80A /* MainContentView.swift */; };
 		9918E8A3298473D700D4F80A /* PhotosPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8A0298473D700D4F80A /* PhotosPickerModel.swift */; };
 		9918E8A4298473D700D4F80A /* ItemGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9918E8A1298473D700D4F80A /* ItemGrid.swift */; };
+		991911C42986F31B00B19F55 /* CalculatingNumberRowSizeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991911C32986F31B00B19F55 /* CalculatingNumberRowSizeItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		9918E8602984723600D4F80A /* MarkPhoto-WorkOrHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarkPhoto-WorkOrHome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPhoto_WorkOrHomeApp.swift; sourceTree = "<group>"; };
+		9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarkPhoto_WorkOrHomeApp.swift; path = "MarkPhoto-WorkOrHome/MarkPhoto_WorkOrHomeApp.swift"; sourceTree = SOURCE_ROOT; };
 		9918E8652984723600D4F80A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9918E8672984723600D4F80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9918E86A2984723600D4F80A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,9 +62,10 @@
 		9918E897298473B700D4F80A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9918E898298473B700D4F80A /* ImagePredictorClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictorClassifier.swift; sourceTree = "<group>"; };
 		9918E899298473B700D4F80A /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
-		9918E89F298473D700D4F80A /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		9918E89F298473D700D4F80A /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainContentView.swift; path = "MarkPhoto-WorkOrHome/View/MainContentView.swift"; sourceTree = SOURCE_ROOT; };
 		9918E8A0298473D700D4F80A /* PhotosPickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPickerModel.swift; sourceTree = "<group>"; };
 		9918E8A1298473D700D4F80A /* ItemGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGrid.swift; sourceTree = "<group>"; };
+		991911C32986F31B00B19F55 /* CalculatingNumberRowSizeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatingNumberRowSizeItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +116,16 @@
 		9918E8622984723600D4F80A /* MarkPhoto-WorkOrHome */ = {
 			isa = PBXGroup;
 			children = (
+				9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */,
 				9918E8942984728100D4F80A /* ViewModel */,
 				9918E8932984727400D4F80A /* View */,
 				9918E8922984726400D4F80A /* Model */,
 				9918E8672984723600D4F80A /* Assets.xcassets */,
 				9918E8A52984754500D4F80A /* bak */,
-				9918E86C2984723600D4F80A /* Persistence.swift */,
-				9918E86E2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld */,
 				9918E8692984723600D4F80A /* Preview Content */,
 			);
 			path = "MarkPhoto-WorkOrHome";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		9918E8692984723600D4F80A /* Preview Content */ = {
 			isa = PBXGroup;
@@ -160,6 +161,8 @@
 				9918E897298473B700D4F80A /* Extensions.swift */,
 				9918E898298473B700D4F80A /* ImagePredictorClassifier.swift */,
 				9918E899298473B700D4F80A /* Struct.swift */,
+				9918E86C2984723600D4F80A /* Persistence.swift */,
+				9918E86E2984723600D4F80A /* MarkPhoto_WorkOrHome.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,16 +170,17 @@
 		9918E8932984727400D4F80A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9918E89F298473D700D4F80A /* MainContentView.swift */,
 				9918E8A1298473D700D4F80A /* ItemGrid.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
+			name = View;
+			path = "MarkPhoto-WorkOrHome/View";
+			sourceTree = SOURCE_ROOT;
 		};
 		9918E8942984728100D4F80A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				9918E8632984723600D4F80A /* MarkPhoto_WorkOrHomeApp.swift */,
-				9918E89F298473D700D4F80A /* MainContentView.swift */,
+				991911C32986F31B00B19F55 /* CalculatingNumberRowSizeItem.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -322,6 +326,7 @@
 				9918E89A298473B700D4F80A /* AnalysisImage.swift in Sources */,
 				9918E86D2984723600D4F80A /* Persistence.swift in Sources */,
 				9918E8A4298473D700D4F80A /* ItemGrid.swift in Sources */,
+				991911C42986F31B00B19F55 /* CalculatingNumberRowSizeItem.swift in Sources */,
 				9918E89B298473B700D4F80A /* ClassifierImageWorkOrHome3.mlmodel in Sources */,
 				9918E89E298473B700D4F80A /* Struct.swift in Sources */,
 				9918E8A3298473D700D4F80A /* PhotosPickerModel.swift in Sources */,
